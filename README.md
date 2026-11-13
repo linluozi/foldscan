@@ -124,10 +124,18 @@ implementation cannot avoid.
 
 ## Install and run
 
+No install is required to run the tests or benchmarks from the repository root
+(the test files add `src/` to `sys.path`):
+
 ```bash
-python3 -m pip install -e .
 python3 -m unittest discover -s tests -v
 python3 benchmark/bench.py
+```
+
+Optional editable install (use a virtualenv on PEP-668 systems):
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install -e . && .venv/bin/python -c "import foldscan; print(foldscan.__version__)"
 ```
 
 Python 3.9+ (measured on CPython 3.12.3). No runtime dependencies.
@@ -135,7 +143,7 @@ Python 3.9+ (measured on CPython 3.12.3). No runtime dependencies.
 ## Reproduce the evidence
 
 ```bash
-python3 -m pip install -e . && python3 -m unittest discover -s tests -v
+python3 -m unittest discover -s tests -v
 python3 benchmark/bench.py
 python3 benchmark/envelope.py
 ```
