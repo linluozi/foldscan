@@ -1,0 +1,11 @@
+{
+ "scale": "medium",
+ "needle": "import ",
+ "impl": "reference",
+ "round": 0,
+ "seconds": 0.006332674063742161,
+ "files": 2,
+ "bytes": 1034728,
+ "matches": 60,
+ "seed": 20261114
+}

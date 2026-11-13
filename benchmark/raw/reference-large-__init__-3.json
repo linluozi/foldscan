@@ -1,0 +1,11 @@
+{
+ "scale": "large",
+ "needle": "__init__",
+ "impl": "reference",
+ "round": 3,
+ "seconds": 0.0017417045310139656,
+ "files": 27,
+ "bytes": 3428467,
+ "matches": 363,
+ "seed": 20261114
+}

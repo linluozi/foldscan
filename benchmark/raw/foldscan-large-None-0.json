@@ -1,0 +1,11 @@
+{
+ "scale": "large",
+ "needle": "None",
+ "impl": "foldscan",
+ "round": 0,
+ "seconds": 0.0038809143006801605,
+ "files": 27,
+ "bytes": 3428467,
+ "matches": 3356,
+ "seed": 20261114
+}

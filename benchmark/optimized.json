@@ -1,0 +1,355 @@
+{
+  "project": "foldscan",
+  "kind": "original library",
+  "upstream": "none",
+  "python": "3.12.3",
+  "executable": "/usr/bin/python3",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.39",
+  "cpu": [
+    "CPU(s):                                  4",
+    "Model name:                              AMD EPYC 7K62 48-Core Processor",
+    "Thread(s) per core:                      1"
+  ],
+  "mem_total_kb": 3812564,
+  "seed": 20261114,
+  "warmup_rounds": 3,
+  "timed_rounds": 7,
+  "timer": "time.perf_counter",
+  "command": "python3 benchmark/bench.py",
+  "upstream_tests": "n/a: original library, no upstream repository",
+  "corpus": {
+    "source": "CPython 3.12 standard library *.py read as bytes",
+    "stdlib": "/usr/lib/python3.12",
+    "files": [
+      {
+        "path": "/usr/lib/python3.12/pydoc_data/topics.py",
+        "bytes": 805508,
+        "sha256": "56f235c690ef8b5b2497884aac3ee1128332532c25bd387dfee750e83432dfa7"
+      },
+      {
+        "path": "/usr/lib/python3.12/_pydecimal.py",
+        "bytes": 229220,
+        "sha256": "c7108f0dc0beedb245daede78c9be602a64d47d3fb988e166e0474aa5bf317ea"
+      },
+      {
+        "path": "/usr/lib/python3.12/turtle.py",
+        "bytes": 146361,
+        "sha256": "1140915f9d17dc0b9ca8ced708d21d75fb38ae395b063a351d85874c7b9fc154"
+      },
+      {
+        "path": "/usr/lib/python3.12/inspect.py",
+        "bytes": 125420,
+        "sha256": "13945f061d93cf7b8f812d2afc279ff0b3aea799c7146b1c0c58c6e644bbc3e1"
+      },
+      {
+        "path": "/usr/lib/python3.12/typing.py",
+        "bytes": 117428,
+        "sha256": "c45d935c17234b1d6ae42d2d5499d3e03b4e2548fae0c4fce15477e23502214d"
+      },
+      {
+        "path": "/usr/lib/python3.12/tarfile.py",
+        "bytes": 113907,
+        "sha256": "664f862558196d80a46663a81bc16cd51061ccec6c1fdda5950a106e97e12512"
+      },
+      {
+        "path": "/usr/lib/python3.12/pydoc.py",
+        "bytes": 113090,
+        "sha256": "c28bc2b5389641f12a32f3e51283e0949b0b9d1537bd7ec2a9e52b071ac4fa9e"
+      },
+      {
+        "path": "/usr/lib/python3.12/email/_header_value_parser.py",
+        "bytes": 108401,
+        "sha256": "2cfed7cd531212b288e281f7093617c3a7444912f26ac590b735cdcd441bf420"
+      },
+      {
+        "path": "/usr/lib/python3.12/doctest.py",
+        "bytes": 106479,
+        "sha256": "271e595a4fb4e4291bedf697d33aa7efab4468299b9b98c9acb28354fc6229b8"
+      },
+      {
+        "path": "/usr/lib/python3.12/unittest/mock.py",
+        "bytes": 104961,
+        "sha256": "9b7fb2946f5b9a9db9b80247d235e396abc1654fde898f2c2a215503f45a8145"
+      },
+      {
+        "path": "/usr/lib/python3.12/urllib/request.py",
+        "bytes": 103013,
+        "sha256": "96ae4b051b87eb7694da24f5fa75bf3931486b49b755699934bf15ab0ca5829d"
+      },
+      {
+        "path": "/usr/lib/python3.12/argparse.py",
+        "bytes": 101750,
+        "sha256": "29395feb61bc376ca4ff9d44069af8d914ec2a1f25a4bd7978f6e2afef5bc07f"
+      },
+      {
+        "path": "/usr/lib/python3.12/pickletools.py",
+        "bytes": 93861,
+        "sha256": "1d43b5d94c640f5fc7569a0cda0ecb3b08e97cc1ba9c1907ba72bac610903a3e"
+      },
+      {
+        "path": "/usr/lib/python3.12/_pyio.py",
+        "bytes": 93593,
+        "sha256": "22a2730be3230802593c75c930387e635809c6d82420e5234ef8d9cd1166ac8d"
+      },
+      {
+        "path": "/usr/lib/python3.12/_pydatetime.py",
+        "bytes": 92097,
+        "sha256": "8d5c6bb703d9b47f87bc20cb8003aaeee2dae7562a381e1623735f1ff8abccd3"
+      },
+      {
+        "path": "/usr/lib/python3.12/subprocess.py",
+        "bytes": 88725,
+        "sha256": "baa9f9138d8d20df6284f67e7d2e790f847f65e2c5370de322d54cccd737f2d9"
+      },
+      {
+        "path": "/usr/lib/python3.12/zipfile/__init__.py",
+        "bytes": 88365,
+        "sha256": "fa12220ba68d58a75767133c93af70d968a4be79da05ef3d67fb32ad5f518f84"
+      },
+      {
+        "path": "/usr/lib/python3.12/logging/__init__.py",
+        "bytes": 83437,
+        "sha256": "43f86bbc08fdd5c7b6e697abffe1381f534a92bb32e1f1aee8360d6a142592a1"
+      },
+      {
+        "path": "/usr/lib/python3.12/difflib.py",
+        "bytes": 83308,
+        "sha256": "0c6afc23568d55b3e9ac914f9c5361e3033e778aa5b58d3cc82835fc5c638679"
+      },
+      {
+        "path": "/usr/lib/python3.12/enum.py",
+        "bytes": 81636,
+        "sha256": "c8ead615c159598370295649eb296819ad4b40d50b200c4fec2d4269bf7af9ae"
+      },
+      {
+        "path": "/usr/lib/python3.12/test/support/__init__.py",
+        "bytes": 81219,
+        "sha256": "6fc1718196873cb41f2a9f1719a89895daa914775b05809dcb7558ed3c0401b9"
+      },
+      {
+        "path": "/usr/lib/python3.12/mailbox.py",
+        "bytes": 78911,
+        "sha256": "1c356f03e8df0b99d9d40a08ac7f3f5f71e9626c3ee1149cbed7307968ba0a4f"
+      },
+      {
+        "path": "/usr/lib/python3.12/locale.py",
+        "bytes": 78562,
+        "sha256": "d1134b7212bad37b7b81339061dc37a19a194aa183ec2cb60412cf365993b151"
+      },
+      {
+        "path": "/usr/lib/python3.12/ipaddress.py",
+        "bytes": 78294,
+        "sha256": "cc9831e239bd81c1480a12733bded744002d93815fd0d083c77aea348c956e67"
+      },
+      {
+        "path": "/usr/lib/python3.12/asyncio/base_events.py",
+        "bytes": 77971,
+        "sha256": "4bf27730499a68f6a5b726204670590cb3425c9331941dd2036a0ad101af39cb"
+      },
+      {
+        "path": "/usr/lib/python3.12/http/cookiejar.py",
+        "bytes": 77438,
+        "sha256": "2a64dbc46edd0173600f32d195531741de562522da28bc76c2f97dccceb37ddb"
+      },
+      {
+        "path": "/usr/lib/python3.12/html/entities.py",
+        "bytes": 75512,
+        "sha256": "d9c65fb2828dbc1f3e399058a341d51e9375ec5bca95a8e92599c41bd5b78bde"
+      }
+    ],
+    "bytes": 3428467
+  },
+  "scales": {
+    "small": {
+      "files": 1,
+      "bytes": 805508,
+      "paths": [
+        "/usr/lib/python3.12/pydoc_data/topics.py"
+      ]
+    },
+    "medium": {
+      "files": 2,
+      "bytes": 1034728,
+      "paths": [
+        "/usr/lib/python3.12/pydoc_data/topics.py",
+        "/usr/lib/python3.12/_pydecimal.py"
+      ]
+    },
+    "large": {
+      "files": 27,
+      "bytes": 3428467,
+      "paths": [
+        "/usr/lib/python3.12/pydoc_data/topics.py",
+        "/usr/lib/python3.12/_pydecimal.py",
+        "/usr/lib/python3.12/turtle.py",
+        "/usr/lib/python3.12/inspect.py",
+        "/usr/lib/python3.12/typing.py",
+        "/usr/lib/python3.12/tarfile.py",
+        "/usr/lib/python3.12/pydoc.py",
+        "/usr/lib/python3.12/email/_header_value_parser.py",
+        "/usr/lib/python3.12/doctest.py",
+        "/usr/lib/python3.12/unittest/mock.py",
+        "/usr/lib/python3.12/urllib/request.py",
+        "/usr/lib/python3.12/argparse.py",
+        "/usr/lib/python3.12/pickletools.py",
+        "/usr/lib/python3.12/_pyio.py",
+        "/usr/lib/python3.12/_pydatetime.py",
+        "/usr/lib/python3.12/subprocess.py",
+        "/usr/lib/python3.12/zipfile/__init__.py",
+        "/usr/lib/python3.12/logging/__init__.py",
+        "/usr/lib/python3.12/difflib.py",
+        "/usr/lib/python3.12/enum.py",
+        "/usr/lib/python3.12/test/support/__init__.py",
+        "/usr/lib/python3.12/mailbox.py",
+        "/usr/lib/python3.12/locale.py",
+        "/usr/lib/python3.12/ipaddress.py",
+        "/usr/lib/python3.12/asyncio/base_events.py",
+        "/usr/lib/python3.12/http/cookiejar.py",
+        "/usr/lib/python3.12/html/entities.py"
+      ]
+    }
+  },
+  "measurements": {
+    "small": {
+      "reference": {
+        "median_s": 0.14145229011774063,
+        "p25_s": 0.14145229011774063,
+        "p75_s": 0.14145229011774063,
+        "rsd_pct": 0.0
+      },
+      "foldscan": {
+        "median_s": 0.03432171419262886,
+        "p25_s": 0.03432171419262886,
+        "p75_s": 0.03432171419262886,
+        "rsd_pct": 0.0
+      },
+      "speedup": 4.121364373697856,
+      "per_needle": {
+        "def ": {
+          "reference_median_s": 0.004814049229025841,
+          "foldscan_median_s": 0.0014664772897958755,
+          "speedup": 3.28273016058498,
+          "matches": 64
+        },
+        "self": {
+          "reference_median_s": 0.004976905882358551,
+          "foldscan_median_s": 0.0007474543526768684,
+          "speedup": 6.658474680807852,
+          "matches": 282
+        },
+        "import ": {
+          "reference_median_s": 0.004983278922736645,
+          "foldscan_median_s": 0.0011249138042330742,
+          "speedup": 4.429920678352832,
+          "matches": 51
+        },
+        "None": {
+          "reference_median_s": 0.005084137432277203,
+          "foldscan_median_s": 0.0008253520354628563,
+          "speedup": 6.159962311628668,
+          "matches": 133
+        },
+        "__init__": {
+          "reference_median_s": 0.00030512455850839615,
+          "foldscan_median_s": 0.0006677545607089996,
+          "speedup": 0.45694118237758646,
+          "matches": 22
+        }
+      }
+    },
+    "medium": {
+      "reference": {
+        "median_s": 0.1821331800892949,
+        "p25_s": 0.1821331800892949,
+        "p75_s": 0.1821331800892949,
+        "rsd_pct": 0.0
+      },
+      "foldscan": {
+        "median_s": 0.043941483832895756,
+        "p25_s": 0.043941483832895756,
+        "p75_s": 0.043941483832895756,
+        "rsd_pct": 0.0
+      },
+      "speedup": 4.144902816252764,
+      "per_needle": {
+        "def ": {
+          "reference_median_s": 0.006218750029802322,
+          "foldscan_median_s": 0.001831301487982273,
+          "speedup": 3.395808975535829,
+          "matches": 303
+        },
+        "self": {
+          "reference_median_s": 0.006484219804406166,
+          "foldscan_median_s": 0.000994800589978695,
+          "speedup": 6.518110131544087,
+          "matches": 1516
+        },
+        "import ": {
+          "reference_median_s": 0.006332674063742161,
+          "foldscan_median_s": 0.0013810060918331146,
+          "speedup": 4.585551143613219,
+          "matches": 60
+        },
+        "None": {
+          "reference_median_s": 0.006513372994959354,
+          "foldscan_median_s": 0.001160300336778164,
+          "speedup": 5.61352331676918,
+          "matches": 333
+        },
+        "__init__": {
+          "reference_median_s": 0.0004328833892941475,
+          "foldscan_median_s": 0.0008830204606056213,
+          "speedup": 0.4902303045132766,
+          "matches": 27
+        }
+      }
+    },
+    "large": {
+      "reference": {
+        "median_s": 0.6156832380220294,
+        "p25_s": 0.6156832380220294,
+        "p75_s": 0.6156832380220294,
+        "rsd_pct": 0.0
+      },
+      "foldscan": {
+        "median_s": 0.14839208591729403,
+        "p25_s": 0.14839208591729403,
+        "p75_s": 0.14839208591729403,
+        "rsd_pct": 0.0
+      },
+      "speedup": 4.149030146831274,
+      "per_needle": {
+        "def ": {
+          "reference_median_s": 0.020863269455730915,
+          "foldscan_median_s": 0.00608453806489706,
+          "speedup": 3.4288994880474766,
+          "matches": 3536
+        },
+        "self": {
+          "reference_median_s": 0.022546982392668724,
+          "foldscan_median_s": 0.0036893151700496674,
+          "speedup": 6.111427555907397,
+          "matches": 11615
+        },
+        "import ": {
+          "reference_median_s": 0.02104787528514862,
+          "foldscan_median_s": 0.0045179929584264755,
+          "speedup": 4.658678196010107,
+          "matches": 572
+        },
+        "None": {
+          "reference_median_s": 0.021623557433485985,
+          "foldscan_median_s": 0.004007523879408836,
+          "speedup": 5.395740133849371,
+          "matches": 3356
+        },
+        "__init__": {
+          "reference_median_s": 0.001843285746872425,
+          "foldscan_median_s": 0.0029482217505574226,
+          "speedup": 0.6252195061392223,
+          "matches": 363
+        }
+      }
+    }
+  }
+}

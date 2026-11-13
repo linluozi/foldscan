@@ -1,0 +1,11 @@
+{
+ "scale": "small",
+ "needle": "__init__",
+ "impl": "foldscan",
+ "round": 3,
+ "seconds": 0.0007474049925804138,
+ "files": 1,
+ "bytes": 805508,
+ "matches": 22,
+ "seed": 20261114
+}

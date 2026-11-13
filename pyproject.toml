@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foldscan"
+version = "0.1.0"
+description = "Exact case-insensitive byte search with a measured fast path and adversarial envelope"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "linluozi"}]
+keywords = ["bytes", "search", "case-insensitive", "performance"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
